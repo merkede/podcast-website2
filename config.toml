@@ -1,8 +1,8 @@
 baseURL = "https://www.apreshill.com"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Alison Hill, PhD"
-author = "Alison Hill"
+title = "Hamzah Javaid"
+author = "Hamzah Javaid"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -33,11 +33,11 @@ enableEmoji = true
     style = "github"
 
 [params]
-  orgName = "Alison Hill"
+  orgName = "H"
   orgLocal = ""
-  description = "Personal website and portfolio of Dr. Alison Hill."
-  favicon = "/img/favicon.ico"
-  logo = "/img/penguin.png"
+  description = "Personal website and portfolio of Hamzah Javaid."
+  favicon = ""
+  logo = ""
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
@@ -47,8 +47,7 @@ enableEmoji = true
   # Default image for social sharing and search engines.
   # Place image file in `static` folder and specify image name here.
   sharing_image = "/img/papillons.jpg"
-  # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  
 
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
@@ -76,7 +75,7 @@ enableEmoji = true
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
     use_utterances = true
-    repo_name = "rbind/apreshill"
+    repo_name = "merkede/podcast-website2"
     issue_term = "title" # url, pathname, or title
     theme = "boxy-light"
     label = "comments :crystal_ball:"
@@ -86,38 +85,18 @@ enableEmoji = true
   # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
-  [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/apreshill"
-  [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://github.com/apreshill"
+[[params.social]]
+    icon      = "cv" 
+    icon_pack = "ai"
+    url       = "https://cedricbatailler.me/cv"
   [[params.social]]
       icon      = "youtube" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://www.youtube.com/@alisonhill"
-    [[params.social]]
-      icon      = "mastodon" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://fosstodon.org/@apreshill"
-  [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
-  [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
   [[params.social]]
       icon      = "linkedin-in" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/alisonpresmaneshill/"
-  [[params.social]]
-      icon      = "google-scholar" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://scholar.google.com/citations?user=yGD9V6MAAAAJ&hl=en"
+      url       = "https://www.linkedin.com/in/hamzah-j/"
 
 [taxonomies]
   category = "categories"
@@ -127,24 +106,24 @@ enableEmoji = true
 [menu]
   # Configure header
   [[menu.header]]
-    name = "About"
-    title = "About me"
-    url = "/about/"
+    name = "Personal blog"
+    title = "My project portfolio"
+    url = "/blog/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
+    name = "Projects"
+    title = "My project portfolio"
+    url = "/projects/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+    name = "Podcast"
+    title = "My project portfolio"
+    url = "/pubs/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+    name = "Contact"
+    title = "My project portfolio"
+    url = "/contact/"
     weight = 4
 
   # Configure footer
@@ -153,16 +132,12 @@ enableEmoji = true
     title = "License"
     url = "/license/"
     weight = 1
-  [[menu.footer]]
-    name = "Contact"
-    title = "Contact form"
-    url = "/contact/"
-    weight = 2
+    
   [[menu.footer]]
     name = "RSS"
     title = "RSS"
     url = "/blog/index.xml"
-    weight = 3
+    weight = 2
 
 # see https://gohugo.io/about/hugo-and-gdpr/
 [privacy]
