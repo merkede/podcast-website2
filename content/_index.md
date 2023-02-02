@@ -1,7 +1,8 @@
 ---
-title: "Alison Hill, PhD"
-subtitle: "Director of Knowledge, Product Strategy @ VoltronData"
-description: "I am a data scientist, behavioral scientist, and award-winning educator. I like sitting at the corner of education + product + strategy. Preferably with a cappuccino."
+title: "Hamzah Javaid"
+subtitle: "Data scientist (with philosophical tendencies)"
+description: "TL;DR  |
+    I am a Data Scientist with a passion for philosophy. I believe in being a generalist, sitting at the corner of data science + product + strategy. I may or may not have sought the assitance of ChatGPT in writing this introduction ..."
 images:
   - img/avatar-circle.png
 image_left: false
@@ -9,7 +10,7 @@ text_align_left: true
 show_social_links: true # specify social accounts in site config
 show_action_link: true
 action_link: /about
-action_label: "About me &rarr;"
+action_label: "Confession: That is an AI generated image of myself &rarr;"
 action_type: text # text, button
 type: home
 ---
