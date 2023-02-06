@@ -15,5 +15,7 @@ action_type: text # text, button
 type: home
 ---
 
-** index doesn't contain a body, just front matter above.
-See index.html in the layouts folder **
+show_outro: true
+outro: |
+
+  <script async data-uid="46e9f46671" src="https://the-data-science-perspective.ck.page/46e9f46671/index.js"></script>
